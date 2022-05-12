@@ -24,7 +24,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: docker-gh
           environment_name: Dockergh-env
-          existing_bucket_name: 5:27pm elasticbeanstalk-us-west-2-365471148518
+          existing_bucket_name: elasticbeanstalk-us-west-2-365471148518
           region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
